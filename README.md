@@ -1,4 +1,4 @@
-# SwiftLintPlugin (Dummy Change for New Release
+# SwiftLintPlugin (Dummy Change for New Release)
 
 This is a SwiftPM plugin that adds a lint command. SwiftPM plugins are only available in Swift 5.6+
 
