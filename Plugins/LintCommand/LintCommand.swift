@@ -3,6 +3,9 @@ import PackagePlugin
 
 @main
 struct LintCommand: CommandPlugin {
+    func performCommand(context: PluginContext, arguments: [String]) async throws {
+        ()
+    }
     func performCommand(context: PluginContext, targets: [Target], arguments: [String]) throws {
         let swiftLintTool = try context.tool(named: "swiftlint")
         let swiftLintPath = URL(fileURLWithPath: swiftLintTool.path.string)
